@@ -2,3 +2,16 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+@font-face {
+    font-family: 'IRYekan';
+    src: url('assets/fonts/IRYekan.woff') format('woff');
+  }
+  
+  body {
+    font-family: 'IRYekan', Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+  }
